@@ -1,0 +1,16 @@
+.choiseModal {
+    position: absolute;
+    display: block;
+    width: 200px;
+    background: gray;
+    border-radius: 20px;
+    box-shadow: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    &__link {
+        text-decoration: none;
+        color: black;
+    }
+}

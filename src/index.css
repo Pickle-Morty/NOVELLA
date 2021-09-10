@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app {
+  height: 100vh;
+}
+
+.chlen {
+  display: block;
+  margin: auto 0;
+  font-size: 70px;
+  text-align: center;
+}
+
+/* link */
+
+.navLink {
+    text-decoration: none;
+    color: gray;
+    
+}

@@ -1,0 +1,42 @@
+.contantPage {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    &__charecter {
+        position: absolute;
+        z-index: 2;
+        left:40%;
+        bottom: 0;
+        width: 240px;
+
+    }
+    &__title {
+
+    }
+}
+.contantBox {
+    position: absolute;
+    z-index: 5;
+    bottom: 50px;
+    right: calc(50% - 400px);
+    width: 800px;
+    padding: 20px 15px 10px ;
+    background: white;
+    border-radius: 20px;
+    &__title {
+        margin: 0 0 10px;
+    }
+    &__text {
+        margin: 0 0 20px;
+    }
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    &__item {
+        margin: 0 5px;
+        
+    }
+}
